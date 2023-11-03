@@ -13,11 +13,18 @@ html {
 
   p, h1, h2, h3 {
      text-shadow: 0 0 20px darkgoldenrod;
+     display: flex;
+    justify-content: center;
   }
 
   blockquote {
     text-shadow: 0 0 5px darkgoldenrod;
   }
+
+.img-header {
+    display: flex;
+    justify-content: center;
+}
 
 .img-box img {
   height: auto;
@@ -36,6 +43,8 @@ html {
     justify-content: space-evenly; 
 }
 
+
+
 .main-header {
     display: flex;
     justify-content: center;
@@ -44,7 +53,11 @@ html {
     text-shadow: 0 0 20px darkgoldenrod;
 }
 
-
+.sub-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
 .header-bar {
     display: flex;
@@ -87,6 +100,11 @@ html {
     filter: invert(1);
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+}
+
 .sign-up {
     color: rgb(255, 217, 94);
     background-color: black;
@@ -95,6 +113,11 @@ html {
 
 .sign-up:hover {
     color: #ffee10;
-    box-shadow: 0 0 5px #ffee10;
-    font-size: 150%;
+    box-shadow: 0 0 8px #ffee10;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
